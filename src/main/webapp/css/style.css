@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    width: 960px;
+    margin: 0 auto;
+}
+.image{
+    float: left;
+}
+.image img{
+    width: 100%;
+}
+.workSpace{
+    float: right;
+    padding: 20px 0;
+}
+.image, .workSpace{
+    border: 1px solid #ccc;
+    width: 470px;
+    margin: 10px 3px;
+    text-align: center;
+}
+.workSpace hr{
+    color: coral;
+    margin: 5px 50px;
+}
+.productList{
+    text-align: left;
+    margin-left: 50px;
+}
+button{
+    margin: 5px 0;
+}
+.emptySum{
+    border: 1px solid red;
+    display: none;
+}
